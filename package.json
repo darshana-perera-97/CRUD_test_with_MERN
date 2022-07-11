@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/darshana-perera-97/CRUD_test_with_MERN/issues"
   },
-  "homepage": "https://github.com/darshana-perera-97/CRUD_test_with_MERN#readme"
+  "homepage": "https://github.com/darshana-perera-97/CRUD_test_with_MERN#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  }
 }
