@@ -1,0 +1,19 @@
+{
+  "name": "crud_test_with_mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshana-perera-97/CRUD_test_with_MERN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darshana-perera-97/CRUD_test_with_MERN/issues"
+  },
+  "homepage": "https://github.com/darshana-perera-97/CRUD_test_with_MERN#readme"
+}
