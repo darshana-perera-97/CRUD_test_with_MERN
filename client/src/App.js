@@ -5,6 +5,12 @@ import SingleToDo from "./Design/SingleToDo";
 
 function App() {
   const [text, setText] = React.useState("");
+  const [todo, setTodo] = React.useState([]);
+
+  React.useState(()=>{
+    
+  })
+
   return (
     // <div className="App">
     //   <header className="App-header">
