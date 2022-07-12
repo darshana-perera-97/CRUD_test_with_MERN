@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
+import SingleToDo from "./Design/SingleToDo";
 
 function App() {
   const [text, setText] = React.useState("");
@@ -28,6 +29,7 @@ function App() {
         placeholder="Write something ..."
         onChange={(e) => setText(e.target.value)}
       />
+      <SingleToDo />
     </div>
   );
 }
