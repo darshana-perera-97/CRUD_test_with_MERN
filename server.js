@@ -7,8 +7,12 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(express.json())
-app.use(Cors());
+app.use(express.json());
+app.use(cors());
+
+const routes = require("./routes/ToDoRoutes");
+
+app.use(routes);
 
 mongoose
   .connect(process.env.MONGO_URL, {
@@ -16,8 +20,8 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => console.log("MongoDB connected"))
-  .catch((err)=>console.log(err));
+  .catch((err) => console.log(err));
 
-  app.listen(5000,()=>{
-    console.log('App is listerning to 5000')
-  })
+app.listen(5000, () => {
+  console.log("App is listerning to 5000");
+});
